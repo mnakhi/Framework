@@ -22,4 +22,10 @@ public class HomeTest extends CommonAPI {
         HomePage hp = new HomePage();
         hp.clickingToMail();
     }
+    @Test
+    public void testUserCanSignIn() throws Exception {
+        driver.get("https://www.yahoo.com");
+        HomePage hp = new HomePage();
+        hp.clickingOnSignIn();
+    }
 }

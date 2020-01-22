@@ -14,4 +14,7 @@ public class HomePage extends CommonAPI {
     public void clickingToMail() throws Exception {
         this.driver.findElement(By.xpath("//span[text()='Mail']")).click();
     }
+    public void clickingOnSignIn(){
+        this.driver.findElement(By.xpath("//*[@id=\"header-signin-link\"]/span")).click();
+    }
 }
