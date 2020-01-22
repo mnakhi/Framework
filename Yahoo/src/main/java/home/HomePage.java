@@ -11,7 +11,7 @@ public class HomePage extends CommonAPI {
     public void clickingByOption(String name){
         this.driver.findElement(By.linkText(name)).click();
     }
-//    public void s(String s){
-//        this.driver.findElement(By.cssSelector())
-//    }
+    public void clickingToMail() throws Exception {
+        this.driver.findElement(By.xpath("//span[text()='Mail']")).click();
+    }
 }

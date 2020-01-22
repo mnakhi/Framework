@@ -16,4 +16,10 @@ public class HomeTest extends CommonAPI {
         HomePage hp = new HomePage();
         hp.clickingByOption("News");
     }
+    @Test
+    public void testUserCanGoToMail() throws Exception {
+        driver.get("https://www.yahoo.com");
+        HomePage hp = new HomePage();
+        hp.clickingToMail();
+    }
 }
