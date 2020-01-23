@@ -17,4 +17,13 @@ public class HomePage extends CommonAPI {
     public void clickingOnSignIn(){
         this.driver.findElement(By.xpath("//*[@id=\"header-signin-link\"]/span")).click();
     }
+    public void signingInYahooMail(String name,String password) throws Exception {
+        this.driver.findElement(By.xpath("//*[@id=\"header-signin-link\"]/span")).click();
+        this.driver.findElement(By.id("login-username")).sendKeys(name);
+        this.driver.findElement(By.id("login-signin")).click();
+        Thread.sleep(5000);
+        this.driver.findElement(By.id("login-passwd")).sendKeys(password);// what is that extra '? w
+        this.driver.findElement(By.id("login-signin")).click();
+    }
+
 }

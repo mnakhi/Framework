@@ -17,15 +17,22 @@ public class HomeTest extends CommonAPI {
         hp.clickingByOption("News");
     }
     @Test
-    public void testUserCanGoToMail() throws Exception {
+    public void testUserCanGoToMailUsingMailOption() throws Exception {
         driver.get("https://www.yahoo.com");
         HomePage hp = new HomePage();
         hp.clickingToMail();
     }
     @Test
-    public void testUserCanSignIn() throws Exception {
+    public void testUserCanGoToSignInPageUsingSignInButton() throws Exception {
         driver.get("https://www.yahoo.com");
         HomePage hp = new HomePage();
         hp.clickingOnSignIn();
+    }
+    @Test
+    public void testUserCanSignInToMail() throws Exception {
+        driver.get("https://www.yahoo.com");
+        HomePage hp = new HomePage();
+        hp.signingInYahooMail("john11doe200@yahoo.com","Xyz456789");
+        Thread.sleep(10000);
     }
 }
