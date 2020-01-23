@@ -35,4 +35,10 @@ public class HomeTest extends CommonAPI {
         hp.signingInYahooMail("john11doe200@yahoo.com","Xyz456789");
         Thread.sleep(10000);
     }
+    @Test
+    public void testUserCanCheckOnWeatherForecast(){
+        driver.get("https://www.yahoo.com");
+        HomePage hp = new HomePage();
+        hp.checkingWeatherForecast();
+    }
 }

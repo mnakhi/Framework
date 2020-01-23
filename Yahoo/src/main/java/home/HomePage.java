@@ -21,9 +21,11 @@ public class HomePage extends CommonAPI {
         this.driver.findElement(By.xpath("//*[@id=\"header-signin-link\"]/span")).click();
         this.driver.findElement(By.id("login-username")).sendKeys(name);
         this.driver.findElement(By.id("login-signin")).click();
-        Thread.sleep(5000);
         this.driver.findElement(By.id("login-passwd")).sendKeys(password);// what is that extra '? w
         this.driver.findElement(By.id("login-signin")).click();
+    }
+    public void checkingWeatherForecast(){
+        this.driver.findElement(By.className("weather-card-content")).click();
     }
 
 }

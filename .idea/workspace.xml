@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b257e321-856b-4447-b7ca-4d9c267c623a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Yahoo/src/main/java/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yahoo/src/main/java/home/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Yahoo/src/test/java/home/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Yahoo/src/test/java/home/HomeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yahoo/target/classes/home/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yahoo/target/classes/home/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yahoo/target/test-classes/home/HomeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Yahoo/target/test-classes/home/HomeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +47,8 @@
       <recent name="C:\Users\hp\Documents\Framework\Generic\src\main\java\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTest.testUserCanSignIn">
-    <configuration name="HomeTest.testUserCan" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomeTest.testUserCanCheckOnWeatherForecast">
+    <configuration name="HomeTest.t" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Yahoo" />
       <extension name="coverage">
         <pattern>
@@ -61,7 +58,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="home" />
       <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
-      <option name="METHOD_NAME" value="testUserCan" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.testUserCanCheckOnWeatherForecast" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Yahoo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
+      <option name="METHOD_NAME" value="testUserCanCheckOnWeatherForecast" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,31 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTest.testUserCanUseNotificationBell" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Yahoo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
-      <option name="METHOD_NAME" value="testUserCanUseNotificationBell" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeTest.testUserCanCheckOnWeatherForecast" />
+        <item itemvalue="TestNG.HomeTest.t" />
         <item itemvalue="TestNG.HomeTest.testUserCanSignIn" />
         <item itemvalue="TestNG.HomeTest.testUserCanGoToMail" />
         <item itemvalue="TestNG.HomeTest.testUserCanSignInToMail" />
-        <item itemvalue="TestNG.HomeTest.testUserCan" />
-        <item itemvalue="TestNG.HomeTest.testUserCanUseNotificationBell" />
       </list>
     </recent_temporary>
   </component>
@@ -181,42 +178,42 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="782" y="111" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1579664114410" />
-    <state width="1459" height="218" key="GridCell.Tab.0.bottom" timestamp="1579748507141">
+    <state width="1459" height="218" key="GridCell.Tab.0.bottom" timestamp="1579758323697">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1459" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579748507141" />
-    <state width="1459" height="218" key="GridCell.Tab.0.center" timestamp="1579748507139">
+    <state width="1459" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579758323697" />
+    <state width="1459" height="218" key="GridCell.Tab.0.center" timestamp="1579758323697">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1459" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579748507139" />
-    <state width="1459" height="218" key="GridCell.Tab.0.left" timestamp="1579748507139">
+    <state width="1459" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579758323697" />
+    <state width="1459" height="218" key="GridCell.Tab.0.left" timestamp="1579758323696">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1459" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579748507139" />
-    <state width="1459" height="218" key="GridCell.Tab.0.right" timestamp="1579748507141">
+    <state width="1459" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579758323696" />
+    <state width="1459" height="218" key="GridCell.Tab.0.right" timestamp="1579758323697">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1459" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579748507141" />
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1579745131675">
+    <state width="1459" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579758323697" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1579748837833">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579745131675" />
-    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1579745131675">
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579748837833" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1579748837833">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1579745131675" />
-    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1579745131675">
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1579748837833" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1579748837833">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1579745131675" />
-    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1579745131675">
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1579748837833" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1579748837833">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1579745131675" />
-    <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579742963335">
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1579748837833" />
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579757678676">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579742963335" />
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579757678676" />
     <state x="182" y="125" key="new project wizard" timestamp="1579643231101">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
